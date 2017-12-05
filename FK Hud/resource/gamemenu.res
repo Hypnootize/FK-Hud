@@ -1,25 +1,9 @@
 "GameMenu" [$WIN32]
 {
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" 		"icon_resume"
-	}
 	"MenuTest"
 	{
 		"OnlyInGame"	"1"
 	}
-	
-	"PlayButton"
-	{
-		"label" "PLAY" 
-		"command" "toggle_play_menu"
-		"subimage" "replay/thumbnails/White"
-		"OnlyAtMenu" "0"
-	}
-	
 	"ServerBrowserButton"
 	{
 		"label" "SERVERS" 
@@ -27,26 +11,17 @@
 		"subimage" "replay/thumbnails/White"
 		"OnlyAtMenu" "0"
 	} 
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
+	"CharacterSetupButton"
 	{
-		"label" "+"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "0"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"label" "INVENTORY"
+		"command" "engine open_charinfo"
+		"subimage" "glyph_items"
 	}
 	"GeneralStoreButton"
 	{
 		"label" "SHOP"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
-	}	
-	"CharacterSetupButton"
-	{
-		"label" "INVENTORY"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
 	}
 
 	// These buttons are only shown while in-game
