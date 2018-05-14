@@ -1374,8 +1374,6 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.vfont"
-		"2"		"resource/HL2EP2.vfont"
-		"3"		"vgui/fonts/marlett.ttf"	[$OSX]
+		"1"		"vgui/fonts/marlett.ttf"	[$OSX]
 	}
 }

@@ -285,6 +285,7 @@
 		if_match
 		{
 			"zpos"				"5"
+			"ypos"				"11"
 		}
 		
 		"TimePanelValue"
@@ -305,8 +306,7 @@
 			
 			if_match
 			{
-				"font"			"RobotoBold12"
-				"ypos"			"5"
+				"font"		"RobotoBold12"
 			}
 		}	
 	}

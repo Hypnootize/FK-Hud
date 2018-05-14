@@ -9745,12 +9745,12 @@ Scheme
 		}
 		"10" // Icons
 		{
-			"font" "resource/sosa-regular-webfont.ttf"
+			"font" "resource/fonts/sosa-regular-webfont.ttf"
 			"name" "Sosa Regular"
 		}
 		"11" // Circle
 		{
-			"font" "resource/fonts/paula_BOLD.ttf"
+			"font" "resource/fonts/paula.ttf"
 			"name" "paula"
 		}
 		"12" // Circle
