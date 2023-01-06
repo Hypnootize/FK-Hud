@@ -228,9 +228,7 @@ Scheme
 	BitmapFontFiles
 	{
 		// UI buttons, custom font, (256x64)
-        "Buttons"            "materials/vgui/fonts/buttons_32.vbf"			[!$PS3]
-        "Buttons"            "materials/vgui/fonts/buttons_ps3_32.vbf"		[$PS3 && !$INPUTSWAPAB]
-        "Buttons"            "materials/vgui/fonts/buttons_ps3_j_32.vbf"	[$PS3 && $INPUTSWAPAB]
+		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
 	//////////////////////// FONTS /////////////////////////////

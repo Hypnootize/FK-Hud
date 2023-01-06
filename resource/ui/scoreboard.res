@@ -73,8 +73,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"448"
+			"visible"		"0"
 		}
 	}
 	"MapTimeBG"
@@ -429,6 +428,11 @@
 		"enabled"		"1"
 		"border"		"noborder"
 		"fillcolor"	"32 39 45 255"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	
 	"Border"
@@ -446,6 +450,11 @@
 		"enabled"		"1"
 		"border"		"noborder"
 		"fillcolor"	"32 39 45 0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Border6"
 	{
@@ -463,6 +472,11 @@
 		"border"		"SBorder2"
 		"fillcolor"	"32 39 45 0"
 		"alpha"	"90"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Shadow"
 	{
@@ -481,6 +495,11 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"Shadow22"
 	{
@@ -499,6 +518,11 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"PlayerShadow"
 	{
@@ -517,6 +541,11 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"PlayerShadow2"
 	{
@@ -535,6 +564,11 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"SpecShadow"
 	{
@@ -553,6 +587,11 @@
 		"tabPosition"		"0"
 		"image"					"replay/thumbnails/mainmenu/titlebarshadow"
 		"border"	"noborder"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlackBG"
 	{
@@ -2020,8 +2059,8 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"c-300"
+		"ypos"				"-8"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
